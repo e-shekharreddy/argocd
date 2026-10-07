@@ -10,7 +10,7 @@ spec:
     targetRevision: main
     path: helm
     helm:
-      valueFiles: |
+      valueFiles:
         - values.yaml
         - values-dev.yaml
   destination:
